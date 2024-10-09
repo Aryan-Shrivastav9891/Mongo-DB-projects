@@ -1,0 +1,14 @@
+
+    <h1>Item List</h1>
+    <a href="/delete">Add Item</a>
+    <ul>
+        <% items.forEach(item => { %>
+            <li>
+                <%= item.name %>
+                <form action="/delete/<%= item._id %>" method="POST" style="display:inline;">
+                    <button type="submit">Delete</button>
+                </form>
+                <a href="/update/<%= item._id %>">Update</a>
+            </li>
+        <% }); %>
+    </ul>
