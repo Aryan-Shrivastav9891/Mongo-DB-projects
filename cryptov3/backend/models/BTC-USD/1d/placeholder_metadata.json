@@ -1,0 +1,14 @@
+{
+    "symbol": "BTC-USD",
+    "timeframe": "1d",
+    "model_type": "sample_model",
+    "training_date": "20230101_000000",
+    "metrics": {
+        "r2": 0.0,
+        "mae": 0.0,
+        "mse": 0.0,
+        "rmse": 0.0
+    },
+    "description": "This is a placeholder metadata file. Replace with actual model metadata when you train a model.",
+    "notes": "To train a model, use the train_model.py script in the examples directory."
+}
