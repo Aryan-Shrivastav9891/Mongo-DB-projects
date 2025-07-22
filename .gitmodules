@@ -1,0 +1,3 @@
+[submodule "cryptov3/candle-prediction-app"]
+	path = cryptov3/candle-prediction-app
+	url = https://github.com/Aryan-Shrivastav9891/candle-prediction-app.git
